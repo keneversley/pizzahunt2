@@ -32,6 +32,7 @@ const PizzaSchema = new Schema(
       virtuals: true,
       getters: true
     },
+    // prevents duplicate id from virtual
     id: false
   }
 );
